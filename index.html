@@ -8,6 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
     <title>My Resume</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
 
@@ -17,6 +21,13 @@
     <div class="main">
         <!--Main Content-->
         <div class="main-content">
+
+            <!-- Button -->
+
+            <button class="print">
+                <img src="img/printer.png" width="25" title="Print" onclick="window.print()" />
+            </button>
+
             <!--About User-->
             <div class="about">
                <h2 class="about-position">Front-End Developer</h2> 
@@ -37,17 +48,17 @@
 
                 <ol class="projects-list">
                     <li class="projects-item">
-                        <span class="project"><a href="https://hellenglish.goit.global/" class="project-link">https://hellenglish.goit.global/</a>
-                        <span class="dots">................</span><span class="project-bracket">[</span> HTML5, CSS3 <span class="project-bracket">]</span>
+                        <span class="project"><a href="https://arhyalex-activebox.netlify.app/" class="project-link">https://arhyalex-activebox.netlify.app/</a>
+                        <span class="dots">................</span><span class="project-bracket">[</span> HTML5, CSS3, JS <span class="project-bracket">]</span>
                     </li>
                     <li class="projects-item">
-                        <span class="project"><a href="https://cryptohub.goit.global/" class="project-link">https://cryptohub.goit.global/</a>
-                        ..................<span class="project-bracket">[</span> JavaScript </span><span class="project-bracket">]</span>
+                        <span class="project"><a href="https://arhyalex-project1.netlify.app/" class="project-link">https://arhyalex-project1.netlify.app/</a>
+                        ....................<span class="project-bracket">[</span> Bootstrap </span><span class="project-bracket">]</span>
                     </li>
-                    <li class="projects-item">
+                    <!-- <li class="projects-item">
                         <span class="project"><a href="https://kidslike.goit.global/" class="project-link">https://kidslike.goit.global/</a>
                         ........................<span class="project-bracket">[</span> React.js, Node.js </span><span class="project-bracket">]</span>
-                    </li>
+                    </li> -->
                 </ol>
             </div>
             <!--Work-->
@@ -62,14 +73,14 @@
                 <ul class="work-list">
                     <li class="work-list-item">Learn HTML5 and CSS3.</li>
                     <li class="work-list-item">Learn JavaScript</li>
-                    <li class="work-list-item">Learn HTML, CSS, JS Frameworks</li>
+                    <li class="work-list-item">Learn Frameworks</li>
                 
                 </ul>
                 </div>
                 <!--Company2-->
                 <div>
                     <h4 class="work-position">Partnerships Manager <span class="organization">Pokupon.ua & SuperDeal.ua</span></h4>
-                    <p class="period">February 2018 - November 2021 <span class="line">|</span> Ukraine</p>
+                    <p class="period">February 2018 - June 2021 <span class="line">|</span> Ukraine</p>
                     <ul class="work-list">
                         <li class="work-list-item">Communication with partners in all Ukraine</li>
                         <li class="work-list-item">Work with CRM systems and marketplaces</li>
@@ -77,32 +88,24 @@
                         <li class="work-list-item">Advertising and traffic</li>
 
                     </ul>
-                </div>
-                <!--Company3-->
-                <!-- <div>
-                    <h4 class="work-position">Manager <span class="organization">Roga & Kopyta LLC</span></h4>
-                    <p class="period">June 2014 - February 2015 <span class="line">|</span> Ukraine</p>
-                    <ul class="work-list">
-                        <li class="work-list-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li class="work-list-item">Quis ipsum suspendisse ultrices gravida.</li>
-                        <li class="work-list-item">Risus commodo viverra maecenas.</li>
-                </div> -->
+                </div>            
                 <!--Education-->
                 <div class="education">
                     <h3 class="title">
                         Education
                     </h3>
-                    <h4 class="university">National Aviation University</h4>
+                    <h4 class="university">Lyceum of the National Aviation University</h4>
                     <p class="faculty">Tourism Agent</p>
                     <p class="period">September 2008 - June 2011 <span class="line">|</span> Ukraine</p>
                     <h3 class="title">
                         Courses
                     </h3>
-                    <p class="course">ITVDN - <span class="course-name">QA Starter</span></p>
-                    <p class="course">ITVDN - <span class="course-name">HTML5 и CSS3 basic</span></p>
+                    <p class="course">ITVDN - <span class="course-name">QA Starter (Video)</span></p>
+                    <p class="course">ITVDN - <span class="course-name">HTML5 и CSS3 basic (Video)</span></p>
 
                 </div>
             </div>
+
             </div>
         <!--Sidebar-->
         <aside class="sidebar">
@@ -112,13 +115,26 @@
                 <h3 class="sidebar-title">Contacts</h3>
                 <div>
                     <p>
-                       <span class="contact-type">C:</span> 
+                        <img class="contact-icon" src="img/telephone.png" width="20" />
+                       <span class="contact-type"></span> 
                        <a href="tel:+380939754047" class="contact-link">+380 93 975 40 47</a>
                     </p>
                     <p>
-                        <span class="contact-type">E:</span>
+                        <img class="contact-icon" src="img/gmail.png" width="20" />
+                        <span class="contact-type"></span>
                         <a href="mailto:al.arkhypov@gmail.com" class="contact-link">al.arkhypov@gmail.com</a>    
-                    </p>                                 
+                    </p>
+                    <p>
+                        <img class="contact-icon" src="img/telegram.png" width="20" />
+                        <span class="contact-type"></span>
+                        <a href="https://t.me/ArhyAlex" target="_blank" class="contact-link">@ArhyAlex</a>    
+                    </p>
+                    <p>
+                        <img class="contact-icon" src="img/github.png" width="20" />
+                        <span class="contact-type"></span>
+                        <a href="https://github.com/ArhyAleks" target="_blank" class="contact-link">GitHub</a>    
+                    </p>
+                    
                 </div>
             </div>
             <!--Tech skills-->
@@ -128,10 +144,11 @@
                     <li class="tech-skills-item"><span class="tech-skills-text">HTML5</span></li>
                     <li class="tech-skills-item"><span class="tech-skills-text">CSS3</span></li>
                     <li class="tech-skills-item"><span class="tech-skills-text">GIT</span></li>
-                    <li class="tech-skills-item"><span class="tech-skills-text">WebPack</span></li>
+                    <!-- <li class="tech-skills-item"><span class="tech-skills-text">WebPack</span></li> -->
                     <li class="tech-skills-item"><span class="tech-skills-text">JavaScript</span></li>
-                    <li class="tech-skills-item"><span class="tech-skills-text">React,js</span></li>
-                    <li class="tech-skills-item"><span class="tech-skills-text">Node.js</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Bootstrap</span></li>
+                    <!-- <li class="tech-skills-item"><span class="tech-skills-text">React,js</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Node.js</span></li> -->
                 </ul>
             </div>
             <!--Soft Skills-->
